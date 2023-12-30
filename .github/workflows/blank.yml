@@ -33,7 +33,7 @@ jobs:
       
     - name: Install TWRP generator 
       run: |
-        pip3 install twrpdtgen
+        pip3 install twrpdtgen-1.3.0
         mkdir dt
     
     - name: Download boot or recovery img
